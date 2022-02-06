@@ -11,7 +11,7 @@ $response="";
 $err=0;
 $err_desc="";
 
-$date = date('Y-m-d h:i:s a', time());
+$date = date('Y-m-d h:i:s a');
 
 if(isset($_GET["method"])){
     $method = $_GET["method"];
