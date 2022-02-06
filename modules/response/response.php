@@ -1,4 +1,5 @@
 <?php
+$err_desc=getError($err);
 $xmlstr = <<<XML
     <xml_response>
     <datetime>$date</datetime>
@@ -6,7 +7,6 @@ $xmlstr = <<<XML
         <method>$method</method>
         <p1>$p1</p1>
         <p2>$p2</p2>
-        <p3>$p3</p3>
     </call_params>
     <error_info>
         <error_num>$err</error_num>
