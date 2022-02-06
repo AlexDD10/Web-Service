@@ -11,9 +11,8 @@ $response="";
 $err=0;
 $err_desc="";
 
-date_default_timezone_set('Europe/Madrid');
 $date =  date('Y-m-d h:i:s a');
-
+ 
 if(isset($_GET["method"])){
     $method = $_GET["method"];
 }
