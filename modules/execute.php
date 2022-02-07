@@ -19,7 +19,7 @@ function ExecuteMethod($pMethod, $pP1, $pP2, $pP3){
             $response=strlen($pP1);
             break;
         case "instring":
-            $response=ValidString($pP1,$pP2);
+            $response=strpos($pP1,$pP2);
             break;
         case "capitalize":
             $response=ucfirst($pP1);
